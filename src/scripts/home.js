@@ -111,18 +111,6 @@ function buscarPersonagens(pagina, nome = "") {
     });
 }
 
-botaoBusca.addEventListener("click", function() {
-  const termoBusca = inputBusca.value;
-  buscarPersonagens(paginaAtual, termoBusca);
-});
-
-inputBusca.addEventListener("input", function() {
-  const termoBusca = inputBusca.value;
-  buscarPersonagens(paginaAtual, termoBusca);
-});
-
-buscarPersonagens(paginaAtual);
-
 function contadorRodape(){
 
   axios.get(urlPersonagem).then((res)=>{
@@ -144,3 +132,15 @@ function contadorRodape(){
   })
 
 }
+
+botaoBusca.addEventListener("click", function() {
+  const termoBusca = inputBusca.value;
+  buscarPersonagens(paginaAtual, termoBusca);
+});
+
+inputBusca.addEventListener("input", function() {
+  const termoBusca = inputBusca.value;
+  buscarPersonagens(paginaAtual, termoBusca);
+});
+
+buscarPersonagens(paginaAtual);
