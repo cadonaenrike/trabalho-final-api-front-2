@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Listagem de Personagens Rick and Morty</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="/src/styles/home.css">
+</head>
+<body>
+  <header>
+    <div class="paiHeader">
+      <div class="imageLogo">
+        <img src="/src/imagens/logo-rick-and-morty.png">
+      </div>
+      <div class="tituloBusca">
+        <h1>API de Rick and Morty</h1>
+        <div id="container-busca" class="campoBusca">
+          <input type="text" id="input-busca" placeholder="Pesquise">
+          <button id="botao-busca"><i class="fas fa-search search-icon"></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div>
+      <ul class="paiMain" id="lista-personagens"></ul>
+    </div>
+    <div class="imagenMain">
+      <img src="/src/imagens/imagen-card.png" alt="" srcset="">
+    </div>
+    <div id="paginacao">
+      
+    </div>
+  </main>
+  <footer>
+    <div class="paiFotter">
+      <div class="infoGerais">
+          <p id="quantidadePersonagens"></p>
+          <p id="localizacao"></p>
+          <p id="episodio"></p>
+      </div>
+      <div class="autorais">
+        <p>
+          Desenvolvido por  <a href="https://www.linkedin.com/in/everton-cadona"> Éverton Henrique Cadona </a>  em 2023.
+        </p>
+      </div>
+    </div>
+  </footer>
+ 
+
+
+  <script src="/src/scripts/home.js"></script>
+</body>
+</html>
