@@ -4,7 +4,13 @@ Este é o repositório do projeto Trabalho Final API Front-End, que implementa u
 
 ## 🚀 Exemplo de execução
 
+![final-api](https://github.com/cadonaenrike/trabalho-final-api-front-2/assets/95323804/8235586f-e4fb-4d29-9a0b-52ace7295bc7)
 
+## 📋 Exemplo de layout a ser seguido
+
+Para ser realizado esse trabalho deveriamos replicar FIELMENTE esse layout:
+
+![API RICK AND MORTY - SIMPLES](https://github.com/cadonaenrike/trabalho-final-api-front-2/assets/95323804/ff4cc9c3-13b5-4ced-ad12-791a064bbb99)
 
 ## 🚀 Funcionalidades
 
