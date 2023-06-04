@@ -16,19 +16,30 @@
 
 .imageLogo{
   align-self: flex-start;
+  z-index: 1;
   width: 200px;
-  height: 100px;
+  height: 100px;;
   margin-top: 25px;
-  z-index: 99999;
 }
 
 .imageLogo img{
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .imageLogo {
+    width: 100px;
+    height: 50px;
+  }
+  .imageLogo img {
+    width: 100px;
+    height: 50px;
+  }
 }
 
 .tituloBusca{
-  z-index: 1;
+  z-index: 9999;
   margin-top: -100px;
 }
 
